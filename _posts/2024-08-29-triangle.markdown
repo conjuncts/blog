@@ -49,7 +49,7 @@ Conveniently, $(1)$ automatically gives us what we want. Just pick $\delta = \va
 It would be remiss to write an article on the Triangle Inequality solely through an algebraic lens. I hope this visual proof is self-explanatory:
 
 
-![geometric triangle inequality](/blog/assets/images/geom_triangle_ineq.png)
+![geometric triangle inequality](/assets/images/geom_triangle_ineq.png)
 
 An interactive version is available in [geogebra](https://www.geogebra.org/calculator/qjgd9xp2?embed).
 
