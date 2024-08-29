@@ -1,0 +1,33 @@
+{% comment %}
+This include file creates an iframe with customizable attributes.
+Usage: {% include iframe.html src="URL" width="WIDTH" height="HEIGHT" %}
+{% endcomment %}
+<div><span><b>Hello world!</b></span></spab></div>
+
+<div class="iframe-container">
+<!-- <iframe src="{{ include.src }}" width="{{ include.width | default: '100%' }}" height="{{ include.height | default: '400' }}"
+frameborder="0" allowfullscreen {% if include.allow %}allow="{{ include.allow }}" {% endif %}>
+</iframe> -->
+<iframe src="https://www.geogebra.org/calculator/qjgd9xp2?embed" width="800" height="600">
+
+</div>
+
+<style>
+  .iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio */
+  }
+
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
